@@ -5,7 +5,14 @@ btn_no.addEventListener('mouseover',() => {
     let y=Math.floor(Math.random()*300-200);
     console.log(`translate(${x},${y})`);
     btn_no.style.transform=`translate(${x}px,${y}px)`;
-})
+});
+
+btn_no.addEventListener('click',() => {
+    let x=Math.floor(Math.random()*300-200);
+    let y=Math.floor(Math.random()*300-200);
+    console.log(`translate(${x},${y})`);
+    btn_no.style.transform=`translate(${x}px,${y}px)`;
+});
 
 let btn_yes = document.getElementById('yes');
 
@@ -21,3 +28,4 @@ btn_yes.addEventListener('click', () => {
 
 
 });
+
