@@ -1,6 +1,6 @@
 let btn_no = document.getElementById("no");
 
-btn_no.addEventListener('click',() => {
+btn_no.addEventListener('mouseover',() => {
     let x=Math.floor(Math.random()*300-200);
     let y=Math.floor(Math.random()*300-200);
     console.log(`translate(${x},${y})`);
@@ -18,5 +18,6 @@ btn_yes.addEventListener('click', () => {
         document.getElementsByClassName('TWO')[0].style.display="none";
         document.getElementsByClassName('THREE')[0].style.display="flex";
     },2000)
+
 
 });
